@@ -1,3 +1,13 @@
+## Live Deployment : https://genai-text-summarizer.streamlit.app/
+
+## Libraries Used
+
+*   **streamlit:** Creates and runs the entire web user interface with simple Python commands.
+*   **google-generativeai:** Needed to use Google's Gemini AI.
+*   **newspaper3k:** Extracts the main article text and title from a given URL.
+*   **validators:** Quickly checks if the user's input is a valid URL format.
+*   **lxml_html_clean:** A required dependency that helps `newspaper3k` clean up HTML content.
+
 # Gemini AI Summarizer - Local Setup
 
 ## Prerequisites
